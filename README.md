@@ -2,7 +2,7 @@
 Cordova Plugin TelephonyManagerInfo
 =================================
 
-Bu plugin, native Android üzerinde `TelephonyManager` class'ının kullanılarak öğrenilebilecek 9 bilgiyi bu plugin ile almanızı sağlar.
+Bu plugin, native Android üzerinde `TelephonyManager` class'ının kullanılarak öğrenilebilecek 22 bilgiyi bu plugin ile almanızı sağlar.
 
 Bu bilgiler şunlardır;
 
