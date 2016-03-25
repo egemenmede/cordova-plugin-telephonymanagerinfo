@@ -40,7 +40,10 @@ Ekleme
 ```
 cordova plugin add cordova-plugin-telephonymanagerinfo
 ```
-
+veya GitHub adresini kullanarak
+```
+cordova plugin add https://github.com/egemenmede/cordova-plugin-telephonymanagerinfo
+```
 Çıkarma
 ```
 cordova plugin remove cordova-plugin-telephonymanagerinfo
