@@ -17,6 +17,19 @@ function TelephonyManagerInfo() {
         me.networkCountryIso = info.networkCountryIso;
         me.deviceSoftwareVersion = info.deviceSoftwareVersion;
         me.deviceId = info.deviceId;
+        me.phoneType = info.phoneType;
+        me.isNetworkRoaming = info.isNetworkRoaming;
+        me.simState = info.simState;
+        me.networkType = info.networkType;
+        me.callState = info.callState;
+        me.dataState = info.dataState;
+        me.groupIdLevel = info.groupIdLevel;
+        me.simCountryIso = info.simCountryIso;
+        me.subscriberId = info.subscriberId;
+        me.voiceMailAlphaTag = info.voiceMailAlphaTag;
+        me.voiceMailNumber = info.voiceMailNumber;
+        me.hasIccCard = info.hasIccCard;
+        me.dataActivity = info.dataActivity;        
     },function(e) {
         utils.alert("[ERROR] Error initializing TelephonyManagerInfo: " + e);
     });
