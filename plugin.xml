@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-telephonymanagerinfo"
+    version="1.0.0">
+    <name>TelephonyManagerInfo</name>
+    <description>Cordova TelephonyManagerInfo Plugin</description>
+    <keywords>cordova,telephonymanagerinfo</keywords>
+
+    <js-module src="www/telephonymanagerinfo.js" name="TelephonyManagerInfo">
+        <clobbers target="TelephonyManagerInfo" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="TelephonyManagerInfo" >
+                <param name="android-package" value="com.egemenmede.telephonymanagerinfo.TelephonyManagerInfo"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/TelephonyManagerInfo.java" target-dir="src/com/egemenmede/telephonymanagerinfo" />
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+        </config-file>
+    </platform>
+
+</plugin>
