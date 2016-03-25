@@ -15,6 +15,19 @@ Bu bilgiler şunlardır;
 - networkCountryIso
 - deviceSoftwareVersion
 - deviceId
+- phoneType
+- isNetworkRoaming
+- simState
+- networkType
+- callState
+- dataState
+- groupIdLevel
+- simCountryIso
+- subscriberId
+- voiceMailAlphaTag
+- voiceMailNumber
+- hasIccCard
+- dataActivity
 
 Bu bilgiler ile ilgili detaylı açıklamalara aşağıdaki linkten ulaşabilirsiniz.
 
@@ -45,6 +58,19 @@ TelephonyManagerInfo.networkOperator
 TelephonyManagerInfo.networkCountryIso
 TelephonyManagerInfo.deviceSoftwareVersion
 TelephonyManagerInfo.deviceId
+TelephonyManagerInfo.phoneType
+TelephonyManagerInfo.isNetworkRoaming
+TelephonyManagerInfo.simState
+TelephonyManagerInfo.networkType
+TelephonyManagerInfo.callState
+TelephonyManagerInfo.dataState
+TelephonyManagerInfo.groupIdLevel
+TelephonyManagerInfo.simCountryIso
+TelephonyManagerInfo.subscriberId
+TelephonyManagerInfo.voiceMailAlphaTag
+TelephonyManagerInfo.voiceMailNumber
+TelephonyManagerInfo.hasIccCard
+TelephonyManagerInfo.dataActivity
 ```
 İzinler
 =================================
