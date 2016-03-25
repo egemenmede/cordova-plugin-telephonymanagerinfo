@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-telephonymanagerinfo",
+  "version": "1.0.0",
+  "description": "Cordova TelephonyManagerInfo Plugin",
+  "cordova": {
+    "id": "cordova-plugin-telephonymanagerinfo",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egemenmede/cordova-plugin-telephonymanagerinfo.git"
+  },
+  "keywords": [
+    "cordova",
+    "telephonymanagerinfo",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Egemen Mede",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/egemenmede/cordova-plugin-telephonymanagerinfo/issues"
+  },
+  "homepage": "https://github.com/egemenmede/cordova-plugin-telephonymanagerinfo#readme"
+}
