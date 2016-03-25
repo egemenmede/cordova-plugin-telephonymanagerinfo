@@ -62,3 +62,7 @@ Desteklenen Platformlar
 Web
 =================================
 http://www.delipenguen.com
+
+Npm Adresi
+=================================
+https://www.npmjs.com/package/cordova-plugin-telephonymanagerinfo
